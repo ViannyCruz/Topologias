@@ -101,9 +101,46 @@ manager.runNetwork("Swt", numberOfNodes);
 manager.sendMessage("Swt", 0, 2, "Hellooo Swt!");
 manager.shutdownNetwork("Swt");
 
+
+
 Salida:
 ![image](https://github.com/ViannyCruz/Topologias/assets/113074158/132099ee-7484-49d0-9976-2bfb1d876423)
 
 
 
 
+## Uso del Marco de Trabajo
+
+### Instalar y Configurar
+
+1. Clona el repositorio en tu máquina local:
+    ```sh
+    git clone https://github.com/tu-usuario/network-simulation-framework.git
+    cd network-simulation-framework
+    ```
+
+2. Asegúrate de tener configurado tu entorno de desarrollo Java.
+
+### Ejecutar el Proyecto
+
+Para ejecutar el proyecto, puedes crear una instancia de `NetworkManager` y usar sus métodos para configurar y ejecutar una red.
+
+#### Ejemplo de Uso
+
+```java
+import org.example.NetworkManager;
+
+public class Main {
+    public static void main(String[] args) {
+        NetworkManager manager = new NetworkManager();
+
+        // Configurar y correr una red tipo Bus con 5 nodos
+        manager.runNetwork("Bus", 5);
+
+        // Enviar un mensaje desde el nodo 0 al nodo 3 en la red Bus
+        manager.sendMessage("Bus", 0, 3, "Hola Nodo 3");
+
+        // Apagar la red Bus
+        manager.shutdownNetwork("Bus");
+    }
+}
