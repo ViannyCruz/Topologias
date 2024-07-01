@@ -115,8 +115,8 @@ Salida:
 
 1. Clona el repositorio en tu máquina local:
     ```sh
-    git clone https://github.com/tu-usuario/network-simulation-framework.git
-    cd network-simulation-framework
+    git clone [https://github.com/tu-usuario/network-simulation-framework.git
+    cd network-simulation-framework](https://github.com/ViannyCruz/Topologias.git)
     ```
 
 2. Asegúrate de tener configurado tu entorno de desarrollo Java.
