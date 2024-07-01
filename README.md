@@ -137,7 +137,7 @@ public class Main {
         // Configurar y correr una red tipo Bus con 5 nodos
         manager.runNetwork("Bus", 5);
 
-        // Enviar un mensaje desde el nodo 0 al nodo 3 en la red Bus
+        // Enviar un mensaje desde el nodo 0 al nodo 3 en la red Bus, en este caso, el mensaje es "Hola Nodo 3"
         manager.sendMessage("Bus", 0, 3, "Hola Nodo 3");
 
         // Apagar la red Bus
