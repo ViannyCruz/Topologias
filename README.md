@@ -1,4 +1,4 @@
-# Topologias
+# Practica #3 - Topologías de Redes para Procesamiento Paralelo
 ## Estructura del marco de trabajo
 El proyecto sigue un patrón modular y de interfaz que facilita la gestión y simulación de diferentes topologías de red.
 
